@@ -8,7 +8,11 @@
 
     <link rel="stylesheet" href="css/style.css" type="text/css">
 
+    <script src="bower_components/svgeezy/svgeezy.min.js"></script>
+
     <script>
+        svgeezy.init(false, 'png'); // this will let the plugin check all images
+
         window.addEventListener('load', function(){
             document.querySelector('.logo').style.opacity=1;
         });
@@ -18,7 +22,7 @@
 <body>
 
     <div class="logo-container">
-        <img class="logo" src="img/public-records-logo-r02-sq-invert.png">
+        <img class="logo" src="img/public-records-logo-r02-sq-invert.svg">
     </div>
 
 </body>

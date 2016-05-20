@@ -1,0 +1,21 @@
+{
+  "name": "publicrecordsse.github.io",
+  "description": "publicrecordsse.github.io.git ==========================",
+  "main": "index.js",
+  "authors": [
+    "Nadan Gergeo <nadan@kth.se>"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/PublicRecordsSe/publicrecordsse.github.io",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "svgeezy": "^1.0.0"
+  }
+}
